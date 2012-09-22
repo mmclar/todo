@@ -1,6 +1,11 @@
+Description
+-----------
+A small API for storing lists of todo items.
+
 Requirements
 ------------
- * Django
+  * Python
+  * Django >= 1.4
 
 Setup
 -----
