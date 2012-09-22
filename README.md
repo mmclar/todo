@@ -11,10 +11,10 @@ Setup
 -----
 To set up the project, clone the repository and run the following in the base folder:
 
-`
+```
 ./init.sh  
 python manage.py syncdb
-`  
+```  
 
 This will check out an updated version of piston and create the database for the project.
 
