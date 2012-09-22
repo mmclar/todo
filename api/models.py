@@ -6,4 +6,5 @@ class List(models.Model):
 class Item(models.Model):
     list = models.ForeignKey(List)
     text = models.CharField(max_length=200)
-
+    addedDate = models.DateTimeField(auto_now_add=True)
+    dueDate = models.DateTimeField()
