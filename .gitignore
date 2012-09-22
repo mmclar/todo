@@ -3,4 +3,6 @@
 *.pyc
 *.db
 *.swp
-local_settings.py
+local_settings.py 
+piston
+django-piston
