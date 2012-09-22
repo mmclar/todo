@@ -7,7 +7,8 @@ Mimer.register(simplejson.loads, ('application/json', 'application/json; charset
 
 class ListHandler(BaseHandler):
     model = List
-    allowed_methods = ('POST', 'PUT', 'DELETE',)
+    allowed_methods = ('POST', 'PUT', 'DELETE', 'GET')
+    fields = ('id', 'title')
 
 def date_from_param(request, param):
     d = request.GET.get(param, None)
